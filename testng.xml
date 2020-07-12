@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XXX项目">
+    <test  name="注册接口">
+       <classes>
+           <class name="com.lifeng.cases.Register"></class>
+           <parameter name="sheetIndex" value="0"></parameter>
+       </classes>
+    </test>
+    <test name="登陆接口">
+        <classes>
+            <class name="com.lifeng.cases.LoginCase"></class>
+            <parameter name="sheetIndex" value="1"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口">
+        <classes>
+            <class name="com.lifeng.cases.Recharge"></class>
+            <parameter name="sheetIndex" value="2"></parameter>
+        </classes>
+    </test>
+    <test name="新增项目接口">
+        <classes>
+            <class name="com.lifeng.cases.AddCase"></class>
+            <parameter name="sheetIndex" value="3"></parameter>
+        </classes>
+    </test>
+    <test name="管理员登陆接口">
+        <classes>
+            <class name="com.lifeng.cases.LoginCase"></class>
+            <parameter name="sheetIndex" value="4"></parameter>
+        </classes>
+    </test>
+    <test name="审核项目接口">
+        <classes>
+            <class name="com.lifeng.cases.AuditCase"></class>
+            <parameter name="sheetIndex" value="5"></parameter>
+        </classes>
+    </test>
+    <test name="投资接口">
+        <classes>
+            <class name="com.lifeng.cases.InvestCase"></class>
+            <parameter name="sheetIndex" value="6"></parameter>
+        </classes>
+    </test>
+</suite>
